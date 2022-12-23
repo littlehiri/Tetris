@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 1165370399160054214}
   m_Layer: 0
   m_Name: tetris_sprites_4 (3)
-  m_TagString: Untagged
+  m_TagString: Block
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -96,7 +96,7 @@ GameObject:
   - component: {fileID: 2596782536251292594}
   m_Layer: 0
   m_Name: tetris_sprites_4 (2)
-  m_TagString: Untagged
+  m_TagString: Block
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -180,7 +180,7 @@ GameObject:
   - component: {fileID: 8189233117311013398}
   m_Layer: 0
   m_Name: tetris_sprites_4
-  m_TagString: Untagged
+  m_TagString: Block
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -285,7 +285,7 @@ Transform:
   - {fileID: 6936253013588599163}
   - {fileID: 348308347783689243}
   m_Father: {fileID: 0}
-  m_RootOrder: 5
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &9184174215028149252
 GameObject:
@@ -299,7 +299,7 @@ GameObject:
   - component: {fileID: 5599333845758414825}
   m_Layer: 0
   m_Name: tetris_sprites_4 (1)
-  m_TagString: Untagged
+  m_TagString: Block
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
