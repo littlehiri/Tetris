@@ -4,6 +4,8 @@ using UnityEngine;
 
 public class GridHelper : MonoBehaviour
 {
+   
+
     /* Matriz filas y columnas
       |  0  |  1  |  2  |  3  |
    -----------------------------
@@ -55,6 +57,17 @@ public class GridHelper : MonoBehaviour
             //Después de destruirlo, el espacio que había reservado en la rejilla virtual, lo vacío.
             //Cambiaríamos las X del dibujo de arriba por una posición vacía (null)
             grid[x, y] = null;
+
+            GameManager.referencia.Puntos += 100;
+            GameManager.referencia.Score.text = GameManager.referencia.Puntos.ToString();
+            GameManager.referencia.GetComponent<AudioSource>().Play();
+
+            GameManager.referencia.Puntos2 += 0.1f;
+            GameManager.referencia.Lineas.text = GameManager.referencia.Puntos2.ToString();
+
+
+
+
         }
     }
 

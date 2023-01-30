@@ -8,8 +8,10 @@ public class GameManager : MonoBehaviour
     public static GameManager referencia;
 
     public TextMeshProUGUI Score;
+    public TextMeshProUGUI Lineas;
 
     public int Puntos;
+    public float Puntos2;
 
     private void Awake()
     {
